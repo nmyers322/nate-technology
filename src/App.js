@@ -16,12 +16,14 @@ const useStyles = makeStyles({
   },
   h1: {
     color: '#FFFFFF',
+    backdropFilter: 'blur(10px)',
     textAlign: 'center',
     fontFamily: '\'JetBrains Mono\', monospace',
     fontSize: '4vh',
     fontWeight: 'bold',
     letterSpacing: '1vh',
-    textShadow: '1vh 1vh #000000'
+    textShadow: '1vh 1vh #000000',
+    padding: '2vh'
   },
   root: {
     background: `url(${laurelhurst})`,
