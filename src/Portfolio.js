@@ -72,15 +72,6 @@ const Portfolio = () => {
             variant="contained" 
             color="default" 
             className={classes.button}
-            onClick={() => window.location.href = "https://apps.apple.com/us/app/decibel-magazine/id567760875"}>
-            <Typography className={classes.buttonText}>Decibel Magazine iOs App</Typography>
-          </Button>
-        </div>
-        <div className={classes.buttonContainer}>
-          <Button 
-            variant="contained" 
-            color="default" 
-            className={classes.button}
             onClick={() => window.location.href = "https://dev.to/nmyers322/virtual-bar-video-chat-app-for-twilio-hackaton-12mg"}>
             <Typography className={classes.buttonText}>Virtual Bar</Typography>
           </Button>
