@@ -76,6 +76,15 @@ const Portfolio = () => {
             <Typography className={classes.buttonText}>Virtual Bar</Typography>
           </Button>
         </div>
+        <div className={classes.buttonContainer}>
+          <Button 
+            variant="contained" 
+            color="default" 
+            className={classes.button}
+            onClick={() => window.location.href = "https://kaos.pw"}>
+            <Typography className={classes.buttonText}>Kaos.pw - Cryptographically secure random password generator</Typography>
+          </Button>
+        </div>
       </div>
     </div>
   );

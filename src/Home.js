@@ -83,15 +83,6 @@ const Home = () => {
           </Button>
         </div>
         <div className={classes.buttonContainer}>
-          <Button 
-            variant="contained" 
-            color="default" 
-            className={classes.button}
-            onClick={() => {window.location.href = 'tel:15032694228'}}>
-            <Typography className={classes.buttonText}>Phone: +1 503 269 4228</Typography>
-          </Button>
-        </div>
-        <div className={classes.buttonContainer}>
           <CopyToClipboard 
             text={"nmyers322@gmail.com"}
             onCopy={() => setEmailCopied(true)}>
